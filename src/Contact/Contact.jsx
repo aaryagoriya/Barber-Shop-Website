@@ -24,7 +24,7 @@ export const ContactUs = () => {
                     </div>
                     <div>
                       <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.7464931181853!2d72.93279037483741!3d22.551167233756424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e4ff3c556af0d%3A0xe1c3c55b598e6c71!2sNew%20Jersey%20Unisex%20Salon!5e0!3m2!1sen!2sin!4v1690886696665!5m2!1sen!2sin"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.7464931181853!2d72.93279037483741!3d22.551167233756424!2m3!1f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e4ff3c556af0d%3A0xe1c3c55b598e6c71!2sNew%20Jersey%20Unisex%20Salon!5e0!3m2!1sen!2sin!4v1690886696665!5m2!1sen!2sin"
                         width="100%"
                         height="450"
                         style={{ border: '0' }}
