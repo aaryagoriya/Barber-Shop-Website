@@ -1,73 +1,107 @@
 # Barber Shop Website
 
-A modern responsive Barber Shop Website built with React + Vite during my 30-day internship project.  
-The goal of this project was to design and implement the front-end of a professional unisex salon website with smooth navigation, styled components, and responsive design.
+A modern, responsive **Unisex Barber Shop Website** developed using React and Vite as part of a 30-day internship project at InnoBrain Technologies (July–August 2023).
+
+The project focused on designing and developing a professional salon website with a clean user interface, smooth navigation, interactive elements, and a responsive layout to provide a better browsing experience across desktop, tablet, and mobile devices.
+
+## Features
+
+- **Responsive Design:** Mobile-friendly layout that adapts to different screen sizes.
+- **Multi-Page Navigation:** Seamless page navigation using React Router DOM.
+- **Modern UI:** Clean and elegant interface built with Styled Components and Bootstrap.
+- **Interactive Sliders:** Dynamic image sliders and carousels using Swiper.js.
+- **Icon Integration:** Font Awesome and Boxicons for visual elements.
+- **Fast Development:** Vite for a fast and efficient development experience.
 
 ## Tech Stack
-- Vite – Lightning-fast development build tool
-- React 18 – UI library
-- React Router DOM – Client-side routing
-- Styled Components – CSS-in-JS styling
-- Bootstrap 5 – Layout & responsive design
-- Swiper.js – Sliders & carousels
-- Font Awesome & Boxicons – Icons
+
+| Technology | Purpose |
+|---|---|
+| React 18 | Building the user interface |
+| Vite | Development server and build tool |
+| React Router DOM | Client-side routing |
+| Styled Components | Component-based styling |
+| Bootstrap 5 | Responsive layouts and UI components |
+| Swiper.js | Sliders and carousels |
+| Font Awesome | Icon library |
+| Boxicons | Additional icons |
 
 ## Project Structure
+
+```text
 unisex/
-│── public/ # Static assets
-│── src/ # React components, pages & styles
-│── index.html # Entry HTML file
-│── vite.config.js # Vite configuration
-│── package.json # Project dependencies & scripts
-│── .gitignore # Ignored files
-│── README.md # Project documentation
+│
+├── public/              # Static assets
+├── src/                 # React components, pages and styles
+│
+├── index.html           # Main HTML entry point
+├── vite.config.js       # Vite configuration
+├── package.json         # Dependencies and scripts
+├── .gitignore           # Git ignored files
+└── README.md            # Project documentation
+```
 
-bash
-Copy code
+## Getting Started
 
-## Installation & Setup
+Follow these steps to run the project locally.
 
-1. Clone the repo
-   ```bash
-   git clone https://github.com/your-username/barber-shop.git
-   cd barber-shop
-Install dependencies
+### 1. Clone the Repository
 
-bash
-Copy code
+```bash
+git clone https://github.com/your-username/barber-shop.git
+```
+
+### 2. Navigate to the Project Directory
+
+```bash
+cd barber-shop
+```
+
+### 3. Install Dependencies
+
+```bash
 npm install
-Start the development server
+```
 
-bash
-Copy code
+### 4. Start the Development Server
+
+```bash
 npm run dev
-Build for production
+```
 
-bash
-Copy code
+Open the local URL displayed in your terminal to view the website.
+
+## Build for Production
+
+To create an optimized production build:
+
+```bash
 npm run build
-Preview production build
+```
 
-bash
-Copy code
+To preview the production build locally:
+
+```bash
 npm run preview
-Features
-Responsive and mobile-friendly design
+```
 
-Multi-page navigation with React Router
+## Future Improvements
 
-Elegant UI built with styled-components and Bootstrap
+- Implement an online appointment booking system.
+- Integrate a backend for managing customer bookings.
+- Add smooth animations and page transitions.
+- Improve accessibility and user experience.
+- Deploy the website using Netlify or Vercel.
 
-Interactive carousel/slider using Swiper.js
+## Project Information
 
-Iconography with Font Awesome and Boxicons
+- **Project:** Unisex Barber Shop Website
+- **Organization:** InnoBrain Technologies
+- **Duration:** July 2023 – August 2023
+- **Internship:** 6 Weeks
+- **Team:** 4 Members
+- **Role:** Front-End Web Development
 
-Fast loading with Vite
+---
 
--Future Improvements
-
-Add booking form with backend integration
-
-Enhance animations and transitions
-
-Deploy on Netlify or Vercel
+Developed as part of a collaborative internship project to gain practical experience in modern front-end web development, responsive design, and team collaboration.
